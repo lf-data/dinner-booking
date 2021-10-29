@@ -10,7 +10,7 @@ The following an abstraction of my function and database schema:
 
 The dining_table contains 12 tables: 3 tables with 2 seats, 2 tables with 3 seats, 3 tables with 4 seats, 2 tables with 5 seats, 2 tables with 6 seats. The number of seats overall is 46. 
 
-## Command list
+## Commands list
 
 - **R <n_guest> <phone_number> <booking_name>**: function to register reservation of a table
 - **C <phone_number/booking_name>**: removing the information of a reservation in base of the phone number or the name
@@ -23,7 +23,7 @@ The dining_table contains 12 tables: 3 tables with 2 seats, 2 tables with 3 seat
 - **GU**: function to show the information about table(s) with the greatest number of unreserved seats, one per line
 - **GR**: function to show the information about table(s) with the greatest number of unreserved seats, one per line. Output similar to *GU* function, but the guests cannot be 0.
 
-## Error list
+## Errors list
 
 I added situation in which the program return an Error:
 

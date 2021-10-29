@@ -2,7 +2,8 @@
 
 Program to build a simplified and proof-of-concept software application  for managing an electronic table reservation book for a restaurant in the evening of a specific day. The software is composed  of a user interface and business logic part  written in Python and an SQL database management system (MySQL) to store the data.
 
-the following an abstraction of my function and database's table:
+The following an abstraction of my function and database's table:
+
 ![function abstraction](function_abstraction.png)
 
 The dining_table contains 12 tables: 3 tables with 2 seats, 2 tables with 3 seats, 3

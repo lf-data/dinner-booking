@@ -22,6 +22,7 @@ The dining_table contains 12 tables: 3 tables with 2 seats, 2 tables with 3 seat
 - **NU**: function to output the number of unreserved seats overall.
 - **GU**: function to show the information about table(s) with the greatest number of unreserved seats, one per line
 - **GR**: function to show the information about table(s) with the greatest number of unreserved seats, one per line. Output similar to *GU* function, but the guests cannot be 0.
+- **X**: function to close the program
 
 ## Errors list
 

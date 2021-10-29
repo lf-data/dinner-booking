@@ -12,6 +12,10 @@ The dining_table contains 12 tables: 3 tables with 2 seats, 2 tables with 3 seat
 
 ## Command list
 
+- **S <n_guest> <phone_number> <booking_name>**: function to register reservation of a table
+- **C <phone_number/booking_name>**: removing the information of a reservation
+    # in base of the phone number or the name
+
 ## Error list
 
 I added situation in which the program return an Error:

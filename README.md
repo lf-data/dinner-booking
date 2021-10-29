@@ -12,9 +12,16 @@ The dining_table contains 12 tables: 3 tables with 2 seats, 2 tables with 3 seat
 
 ## Command list
 
-- **S <n_guest> <phone_number> <booking_name>**: function to register reservation of a table
-- **C <phone_number/booking_name>**: removing the information of a reservation
-    # in base of the phone number or the name
+- **R <n_guest> <phone_number> <booking_name>**: function to register reservation of a table
+- **C <phone_number/booking_name>**: removing the information of a reservation in base of the phone number or the name
+- **S <phone_number/booking_name>**: function to select information about reservation in base of the phone number or the name
+- **L**: function that returns all information required about reservation if there are not informations it returns "No result(s)"
+- **U**: function to list all the unreserved tables, one per line
+- **NT <n_guests>(optional)**: function to output the number of reserved tables counting the number of booking in reservation table, If there is an argument the function returns the number of reserved tables under the number of guests
+- **NG**: function to output the number of booked guests overall checking always
+- **NU**: function to output the number of unreserved seats overall.
+- **GU**: function to show the information about table(s) with the greatest number of unreserved seats, one per line
+- **GR**: function to show the information about table(s) with the greatest number of unreserved seats, one per line. Output similar to *GU* function, but the guests cannot be 0.
 
 ## Error list
 

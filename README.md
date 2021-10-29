@@ -1,12 +1,22 @@
 # Dinner Booking CLI
 
+## Description
+
 Program to build a simplified and proof-of-concept software application  for managing an electronic table reservation book for a restaurant in the evening of a specific day. The software is composed  of a user interface and business logic part  written in Python and an SQL database management system (MySQL) to store the data.
+
+## Abstraction
 
 The following an abstraction of my function and database schema:
 
 ![function abstraction](function_abstraction.png)
 
-The dining_table contains 12 tables: 3 tables with 2 seats, 2 tables with 3 seats, 3 tables with 4 seats, 2 tables with 5 seats, 2 tables with 6 seats. The number of seats overall is 46. I added situation in which the program return an Error:
+The dining_table contains 12 tables: 3 tables with 2 seats, 2 tables with 3 seats, 3 tables with 4 seats, 2 tables with 5 seats, 2 tables with 6 seats. The number of seats overall is 46. 
+
+## Command list
+
+## Error list
+
+I added situation in which the program return an Error:
 
 - The number of guests is not a number but a character.
 - At least one characters inside a phone number are not a number or if the length of phone number is different to 10.
@@ -16,6 +26,7 @@ The dining_table contains 12 tables: 3 tables with 2 seats, 2 tables with 3 seat
 - The user enters more or less than required argument or command.
 
 The following an example of the use of CLI:
+
 ```txt
 > R 3 1234567891 Francesco
 > R 2 1234567892 Giovanni

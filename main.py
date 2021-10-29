@@ -255,7 +255,7 @@ def main():
             return "Error"
 
     # Function to output the number of unreserved seats overall.
-    # In this case there are make 2 queries and then the function returns the difference between them
+    # In this case there are 2 queries and then their execution the function returns the difference between them
     def funNU(inp):
         if len(inp) == 0:
             query = "SELECT sum(seats) " \

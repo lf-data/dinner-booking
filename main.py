@@ -14,9 +14,9 @@ import pandas as pd # pandas v. 1.2.0
 def main():
     # connection to database mysql
     dbconn = ms.connect(
-        host="localhost",
-        user="root",
-        database="ds_project"
+        host="(hostname>",
+        user="(username)",
+        database="(databse_name)"
     )
 
     # creation of cursor

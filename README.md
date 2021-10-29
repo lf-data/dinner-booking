@@ -8,12 +8,12 @@ The following an abstraction of my function and database schema:
 
 The dining_table contains 12 tables: 3 tables with 2 seats, 2 tables with 3 seats, 3 tables with 4 seats, 2 tables with 5 seats, 2 tables with 6 seats. The number of seats overall is 46. I added situation in which the program return an Error:
 
-- If the number of guests is not a number but a character, the program returns “Error”.
-- If at least one characters inside a phone number are not a number or if the length of phone number is different to 10, the program returns “Error”.
-- If the code command entered by user is not inside a key of dictionary in which there are all of function, the program returns “Error”.
-- If there is not table available when the user would to enter a new booking, the program returns “Error”.
-- If the user would like to delete a booking but this booking not exist, the program returns “Error”.
-- If the user enters more or less than required argument or command, the program returns “Error”.
+- The number of guests is not a number but a character.
+- At least one characters inside a phone number are not a number or if the length of phone number is different to 10.
+- The code command entered by user is not inside a key of dictionary in which there are all of function.
+- There is not table available when the user would to enter a new booking.
+- The user would like to delete a booking but this booking not exist.
+- The user enters more or less than required argument or command.
 
 The following an example of the use of CLI:
 ```txt

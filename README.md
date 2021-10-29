@@ -23,6 +23,8 @@ I added situation in which the program return an Error:
 - The user would like to delete a booking but this booking not exist.
 - The user enters more or less than required argument or command.
 
+## Example
+
 The following an example of the use of CLI:
 
 ```txt
